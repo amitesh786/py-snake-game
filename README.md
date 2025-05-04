@@ -14,41 +14,40 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 - Pygame library
 
 ## Installation
-    - **Clone or Download the Repository**
-    `git clone https://github.com/amitesh786/py-snake-game.git`
-    `cd py-snake`
-    - **Create a virtual environment (optional but recommended)**
-        - `python3 -m venv venv`
-        - `source venv/bin/activate`  # macOS/Linux
-        - `venv\Scripts\activate`     # Windows
-    - **Install dependencies**
-        - `pip install pygame`
+- **Clone or Download the Repository**
+`git clone https://github.com/amitesh786/py-snake-game.git`
+`cd py-snake`
+- **Create a virtual environment (optional but recommended)**
+    - `python3 -m venv venv`
+    - `source venv/bin/activate`  # macOS/Linux
+    - `venv\Scripts\activate`     # Windows
+- **Install dependencies**
+- `pip install pygame`
 
 ## Run the Game
-    - `python3 main.py`
-    - A game window will open. Use the arrow keys to start playing.
+- `python3 main.py`
+- A game window will open. Use the arrow keys to start playing.
 
 ## Project Structure
-    - py-snake/
-    - ├── main.py
-    - ├── README.md
-    - └── requirements.txt
+- py-snake/
+- ├── main.py
+- ├── README.md
+- └── requirements.txt
 
 ## Features
-    - Simple and clean Pygame loop
-    - Collision detection with walls and self
-    - Growing snake with food pickups
-    - Score tracking (in terminal)
+- Simple and clean Pygame loop
+- Collision detection with walls and self
+- Growing snake with food pickups
+- Score tracking (in terminal)
 
 ## Demo
-    - Uploading shortly...
+- Uploading shortly...
 
 ## Future Enhancements
-
-    - Add a Game Over screen
-    - Show score on screen
-    - Add sound effects
-    - High score tracking
+- Add a Game Over screen
+- Show score on screen
+- Add sound effects
+- High score tracking
 
 ## Developer Setup
 - Clone the repository: `git clone https://github.com/amitesh786/py-snake-game.git`
