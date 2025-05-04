@@ -16,7 +16,7 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 ## Installation
 - **Clone or Download the Repository**
 `git clone https://github.com/amitesh786/py-snake-game.git`
-`cd py-snake`
+
 - **Create a virtual environment (optional but recommended)**
     - `python3 -m venv venv`
     - `source venv/bin/activate`  # macOS/Linux
@@ -29,7 +29,6 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 - A game window will open. Use the arrow keys to start playing.
 
 ## Project Structure
-- py-snake/
 - ├── main.py
 - ├── README.md
 - └── requirements.txt
