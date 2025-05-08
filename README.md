@@ -40,7 +40,7 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 - Score tracking (in terminal)
 
 ## Demo
-- Uploading shortly...
+![Snake-Game](Snake-Game.gif)
 
 ## Future Enhancements
 - Add a Game Over screen
