@@ -43,8 +43,6 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 ![Snake-Game](Snake-Game.gif)
 
 ## Future Enhancements
-- Add a Game Over screen
-- Show score on screen
 - Add sound effects
 - High score tracking
 
