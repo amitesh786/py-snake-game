@@ -2,6 +2,18 @@
 
 This is a classic snake game built using **Python** and **Pygame**. Control the snake, eat the food, and try not to crash into yourself or the wall.
 
+## Table of Contents
+- [How to Play](#how-to-play)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Run the Game](#run-the-game)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Demo](#demo)
+- [Future Enhancements](#future-enhancements)
+- [Developer Setup](#developer-setup)
+- [Author](#author)
+
 ## How to Play
 
 - Use **arrow keys** (↑ ↓ ← →) to move the snake.
@@ -49,5 +61,6 @@ This is a classic snake game built using **Python** and **Pygame**. Control the 
 ## Developer Setup
 - Clone the repository: `git clone https://github.com/amitesh786/py-snake-game.git`
 
-## Author Amitesh Singh – [GitHub](https://github.com/amitesh786)
-- Feel free to contribute or suggest improvements! 🙌
+## Author 
+- Amitesh Singh – [GitHub](https://github.com/amitesh786)
+- Feel free to contribute or suggest improvements!
