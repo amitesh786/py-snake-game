@@ -80,11 +80,27 @@ def game_loop():
         elif direction == 'RIGHT':
             head[0] += BLOCK_SIZE
 
-        if (
-            head in snake or
-            head[0] < 0 or head[0] >= WIDTH or
-            head[1] < 0 or head[1] >= HEIGHT
-        ):
+        # Corner Collision: Game Over
+        # if (
+        #     head in snake or
+        #     head[0] < 0 or head[0] >= WIDTH or
+        #     head[1] < 0 or head[1] >= HEIGHT
+        # ):
+        #     break
+
+        # Corner Collision: Continue
+        if head[0] < 0:
+            head[0] = WIDTH - BLOCK_SIZE
+        elif head[0] >= WIDTH:
+            head[0] = 0
+
+        if head[1] < 0:
+            head[1] = HEIGHT - BLOCK_SIZE
+        elif head[1] >= HEIGHT:
+            head[1] = 0
+
+        # Only hitting your own snake causes: Game Over
+        if head in snake:
             break
 
         snake.insert(0, head)
